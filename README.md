@@ -19,7 +19,7 @@ Run these following command in the kafka unzipped folder.
  Start kafka server :
  ```bin/kafka-server-start.sh config/server.properties```
  
- *Download producerA.py, producerB.py, consumerC.py
+ *Download producerA.py, producerB.py, consumerC.py*
           
  Run Consumer C:
  ```python3 consumerC.py```
@@ -34,7 +34,7 @@ Run these following command in the kafka unzipped folder.
  ![consumerC.py Output](https://github.com/iramshiv/kafka_demo/blob/master/consumerC.jpg)
  
  *to delete the topic after first run: 
- ```bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic numtest1```
+ ```bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic numtest1```*
  
   *"numtest1" is topic name created in this project.*
   
