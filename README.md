@@ -22,6 +22,9 @@ Run these following command in the kafka unzipped folder.
  
  **Run Producer B:** ```python3 producerB.py```
  
+ **consumerC.py Output:**
+ ![consumerC.py Output](https://github.com/iramshiv/kafka_demo/blob/master/consumerC.jpg)
+ 
  To **delete the topic** after first run: ```bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic numtest1```
  
   *"numtest1" is topic name created in this project.*
