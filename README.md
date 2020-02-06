@@ -8,7 +8,7 @@ The project has 2 producers (A & B) and a consumer (C). Producer A generates an 
 
 **Kafka requires Java :** ``` sudo apt install default-jre```
 
-Run these following command in the kafka installed folder.
+Run these following command in the kafka unzipped folder.
  
  **Start zookeeper :** ```bin/zookeeper-server-start.sh config/zookeeper.properties```
  
@@ -21,10 +21,6 @@ Run these following command in the kafka installed folder.
  **Run Producer A :** ``` python3 producerA.py```
  
  **Run Producer B:** ```python3 producerB.py```
- 
- consumerC output:
- 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
  
  To **delete the topic** after first run: ```bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic numtest1```
  
