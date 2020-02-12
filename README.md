@@ -1,5 +1,7 @@
 # kafka_demo
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/679a8ca57ba84f27962b35801742f2c8)](https://www.codacy.com/manual/iramshiv/kafka_demo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=iramshiv/kafka_demo&amp;utm_campaign=Badge_Grade)
+
 **Exercise 1:**
 
 This is a python project using kafka, on UBUNTU 19.10.
